@@ -1,6 +1,6 @@
 //Soal nomor 1//
 //Call back Function//
-/*function sendRequestWithCallback(callback) {
+function sendRequestWithCallback(callback) {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://jsonplaceholder.typicode.com/posts", true);
   
@@ -60,7 +60,7 @@ sendRequestWithPromise()
   .catch(function(error) {
     console.log("Error:", error);
   });
-*/
+
 // Soal nomor 2 //
 function generateId(length) {
   return new Promise(function(resolve, reject) {
